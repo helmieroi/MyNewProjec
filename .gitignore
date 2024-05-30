@@ -7,7 +7,9 @@ node_modules/
 .expo/
 dist/
 web-build/
-
+web
+android
+backend/uploads
 # Native
 *.orig.*
 *.jks

@@ -1,0 +1,27 @@
+npm i react-native-document-picker
+npx expo prebuild
+npx expo run:android
+
+/*error ****/
+
+Go to your React-native Project
+
+Inside android folder
+
+Create a file named --> local.properties
+
+Open the file
+
+paste your Android SDK path which looks similar like below
+/*
+sdk.dir = C:\\Users\\USERNAME\\AppData\\Local\\Android\\sdk    --> for Windows
+
+sdk.dir = /Users/USERNAME/Library/Android/sdk                  --> for  macOS     
+
+sdk.dir = /home/USERNAME/Android/Sdk                           --> for linux 
+*/
+Replace USERNAME with your OS username
+
+cd android && ./gradlew clean
+cd ..
+npx react-native run-android
